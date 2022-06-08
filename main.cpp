@@ -2,7 +2,7 @@
 #include <iostream>
 std::map<int, float>& get_probabilities_from_user(std::map<int, float>& prob)
 {
-    float sum;
+    float sum = 0;
     int num;
     float percent;
     while(sum<100)
